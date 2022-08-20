@@ -1,0 +1,77 @@
+*{
+    margin:0;
+    padding: 0;
+}
+/* Swiper Top */
+.swiper {
+    width: 100%;
+    height: 40px;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* DropDown Button */
+ 
+  /* .social_icon{
+    
+  } */
+  .social_icon a{
+    margin-right: 4px;
+    font-size: 20px;
+    color: white;
+  }
+
+  .top_nav{
+    background-color: #282828;
+    color:white;
+    height: 37px;
+  }
+
+  .top_nav ul li{
+    list-style-type: none;
+    display: inline-block;
+  }
+
+  .top_nav ul li a{
+    text-decoration: none;
+  }
+  .top_nav ul li button{
+    border: none;
+    color: white;
+  }
+
+.top_nav .mySwiper{
+  color:rgb(182, 175, 175);
+}
+.top_nav .account_Currency{
+  padding-top: 3px;
+}
+.top_nav .account_Currency a{
+  color:white;
+}
+
+
+
