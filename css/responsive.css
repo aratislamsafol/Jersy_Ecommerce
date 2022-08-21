@@ -3,7 +3,14 @@
     padding: 0;
 }
  /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) { ... }
+@media (max-width: 290px) { 
+}
+@media (min-width: 291px) and (max-width: 575.98px) { 
+    /* .wrap_nav{
+        max-height: 500px;
+        height: 200px;
+    } */
+ }
 
  /* Small devices (landscape phones, 576px and up) */ */
 @media (min-width: 576px) and (max-width: 767.98px) { ... }

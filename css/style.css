@@ -111,6 +111,9 @@
 }
 
 /* navbar Menu */
+.nav-item a{
+  color: rgb(214, 206, 206);
+}
 .dropdown-large{
   padding:1rem; 
   min-width:300px;
@@ -127,13 +130,24 @@ font-size: 18px;
 .modal-body{
   text-align: center;
   align-items: center;
+
+}
+.modal-body form{
+  position: relative;
+  width: 700px;
 }
 .modal-body button{
   font-size: 26px;
 }
 .modal-body form input{
-  width: 700px;
-  padding: 20px;
+  position: absolute;
+  top:-10px;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+  width: 100%;
+  padding: 8px;
+  padding-bottom: 20px;
   border: none;
   border-bottom: 1px solid gray;
   outline: none;
@@ -142,6 +156,7 @@ font-size: 18px;
   outline: none;
   border: none;
   font-size: 23px;
+  color: rgb(214, 206, 206);
 }
 
 /* toggle Button */
@@ -198,7 +213,6 @@ font-size: 18px;
   color: #FD9678;
   transition: 0.3s;
 }
-
 .menu_canvas{
   margin:0;
   padding: 0;
@@ -219,5 +233,81 @@ font-size: 18px;
   font-weight: 500;
   transition: 0.3s;
 }
+.wrap_nav{
+  background-image: url(/img/header-tshirts-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  min-height: 300px;
+  margin: 0;
+  padding-bottom: 10%;
+  width: 100%;
+}
+/* banner */
+.banner{
 
+}
+.banner_img{
+  overflow: hidden;
+}
+.banner_img img{
+  width: calc(100% + 1px);
+  vertical-align: top;
+  transform: scale(1.1) rotate(0.001deg);
+  transition: 0.5s;
+}
+.banner_img img:hover{
+  transform: scale(1);
+  transition: 0.5s;
+}
+.category img{
+  width: 100%;
+}
+.categoryProduct{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  height: 400px;
+}
+.categoryProduct>div{
+  width: 30%;
+  height: 50%;
+}
+.categoryProduct>div:nth-child(1),.categoryProduct>div:nth-child(4),.categoryProduct>div:nth-child(5){
+  width: 70%;
+}
+.categoryProduct>div:nth-child(2),.categoryProduct>div:nth-child(3),.categoryProduct>div:nth-child(6){
+  width: 30%;
+}
+.categoryProduct .product{
+  position: relative;
+}
+.categoryProduct .product img{
+  position: absolute;
+  height: 100%;
+}
+.categoryProduct2{
+  display: flex;
+  flex-direction: row;
+  width: 30%;
+  height: 400px;
+  flex-wrap: wrap;
+}
+.categoryProduct2>div{
+  height: 50%;
+  width: 100%;
+}
+.categoryProduct2>div:nth-child(2){
+  margin-bottom: 0px;
+}
+.categoryProduct2 .product{
+  position: relative;
+}
+.categoryProduct2 .product img{
+  position: absolute;
+  height: 100%;
+}
+
+.categoryProduct2>div:nth-child(1){
+  height: 100%;
+}
 
