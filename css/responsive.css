@@ -4,10 +4,33 @@
 }
  /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 290px) { 
+    .nav_button .btn{
+        outline: none;
+        border: none;
+        font-size: 16px;
+        color: rgb(214, 206, 206);
+      }
+      .categoryDivision .product .categoryProductContent h3{
+        font-size: 16px;
+      }
+      .categoryDivision .product .categoryProductContent span{
+        font-size: 14px;
+      }
 }
 @media (min-width: 291px) and (max-width: 575.98px) { 
-    
- }
+    .nav_button .btn{
+        outline: none;
+        border: none;
+        font-size: 16px;
+        color: rgb(214, 206, 206);
+      }
+      .categoryDivision .product .categoryProductContent h3{
+        font-size: 16px;
+      }
+      .categoryDivision .product .categoryProductContent span{
+        font-size: 14px;
+      }
+}
 
  /* Small devices (landscape phones, 576px and up) */ 
 @media (min-width: 576px) and (max-width: 767.98px) { 

@@ -248,6 +248,44 @@ font-size: 18px;
 }
 .banner_img{
   overflow: hidden;
+  position: relative;
+}
+.bannerContent{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-50%,0);
+}
+.bannerContent2{
+  position: absolute;
+  top: 30%;
+  right: -10%;
+  transform: translate(-50%,0);
+}
+.bannerContent h3,.bannerContent2 h3{
+  color: white;
+  text-decoration: none;
+  font-size: 5vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.bannerContent span,.bannerContent2 span{
+  font-size: 2vw;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: white;
+  text-decoration: none;
+
+}
+.bannerContent a,.bannerContent2 a{
+  color: white;
+  text-decoration: none;
+  font-size: 2vw;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .banner_img img{
   width: calc(100% + 1px);
@@ -259,6 +297,7 @@ font-size: 18px;
   transform: scale(1);
   transition: 0.5s;
 }
+
 .category img{
   width: 100%;
 }
@@ -306,5 +345,34 @@ font-size: 18px;
 
 .categoryProduct2>div:nth-child(1){
   height: 100%;
+}
+.categoryDivision .product{
+  overflow: hidden;
+}
+.categoryDivision .product img,.categoryDivision .product .categoryProductContent{
+  transform: scale(1.1) rotate(0.001deg);
+  transition: 0.5s;
+}
+.categoryDivision .product img:hover{
+  transform: scale(1) rotate(0.001deg);
+  transition: 0.5s;
+}
+
+.categoryDivision .product .categoryProductContent:hover{
+  transform: scale(1) rotate(0.001deg);
+  transition: 0.5s;
+}
+
+.categoryDivision .product{
+  position: relative;
+}
+
+.categoryDivision .product .categoryProductContent{
+  position: absolute;
+  bottom:13%;
+  left: 10%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
