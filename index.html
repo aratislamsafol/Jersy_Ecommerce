@@ -109,9 +109,8 @@
                             </div>
                         </div>
                         <div class="logo">
-                            <h1 class="text-success" style="font-weight: 800;">LI<span class="" style="color:rgb(212, 64, 64)">mon</span></h1>
+                            <h1 class="text-success" style="font-weight: 800;">Li<span class="" style="color:rgb(212, 64, 64)">mon</span></h1>
                         </div>
-                        <!-- <p class="mt-3 ms-4" style="font-size: 20px;font-weight: 600;"><i class="fa-solid fa-phone me-1"></i>+880 1969 567</p> -->
                     </div>
                 </div>
                
@@ -276,139 +275,381 @@
                         <div class="btn">
                             <i class="fa-solid fa-globe"></i>
                         </div>
+
                         <button class="btn" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight2" aria-controls="offcanvasRight"><i class="fa-solid fa-basket-shopping"></i>&nbsp;<span class="d-none d-md-inline-block" style="font-size: 16px;">$40.99</span></button></li>
                     </div>
                     <!-- Shopping Cart offCanvas -->
                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight2" aria-labelledby="offcanvasRightLabel">
                         <div class="offcanvas-header">
-                        <p class="text-success">arat Khan</p>
-                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close"><i
+                            class="fas fa-long-arrow-alt-left me-2"></i>Continue shopping</button>
                         </div>
                         <div class="offcanvas-body">
-                            ...
+                            <div class="d-flex justify-content-between">
+                                <div class="d-flex flex-column">
+                                    <h5>Shopping cart</h5>
+                                    <p>You have 4 items in your cart</p>
+                                </div>
+                                <div class="d-flex flex-row">
+                                    <p>Sort by:</p>
+                                    <form action="" method="get">
+                                        <div class="form-group">
+                                            <select class="form-control m-0 ms-1 p-0" id="exampleFormControlSelect1">
+                                              <option class="cursor-pointer">Price</option>
+                                              <option>Name</option>
+                                              <option>Time</option>
+                                            </select>
+                                          </div>
+                                    </form>
+                                </div>
+                            </div>
+                            
+                            <div class="d-flex my-3 flex-column">
+                                <div class="card border-0 shadow-lg">
+                                    <div class="card-body">
+                                        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                                            <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                                          </div>
+                                    </div>
+                                  </div>
+                            </div>
                         </div>
                     </div>
                 </div>
     
             </div>
         </div>
-            <!-- Banner Section -->
+        <!-- Banner Section -->
         <div class="banner">
             <div class="container">
                 <div class="row">
                     <div class="col-12 m-0 p-0">
-                        <a href="">
-                            <div class="banner_img">
-                                <img src="img/banner-tshirts-01.jpg" alt="" class="">
-
-                                <div class="bannerContent">
-                                    <span>title</span>
-                                    <h3 class="uppercase">Collection</h3>
-                                    <a href="" class="uppercase">Shop now</a>
+                        <div class="bannerImageHover">
+                            <a href="">
+                                <div class="banner_img">
+                                    <img src="img/banner-tshirts-01.jpg" alt="" class="">
+    
+                                    <div class="bannerContent">
+                                        <span>title</span>
+                                        <h3 class="uppercase">Collection</h3>
+                                        <a href="" class="uppercase">Shop now</a>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
 
                     <div class="col-12 m-0 p-0">
-                        <a href="">
-                            <div class="banner_img">
-                                <img src="img/banner-tshirts-02.jpg" alt="" class="">
-
-                                <div class="bannerContent2">
-                                    <span>title</span>
-                                    <h3 class="uppercase">Collection</h3>
-                                    <a href="" class="uppercase">Shop now</a>
+                        <div class="bannerImageHover">
+                            <a href="">
+                                <div class="banner_img">
+                                    <img src="img/banner-tshirts-02.jpg" alt="" class="">
+    
+                                    <div class="bannerContent2">
+                                        <span>title</span>
+                                        <h3 class="uppercase">Collection</h3>
+                                        <a href="" class="uppercase">Shop now</a>
+                                    </div>
                                 </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- Categories -->
-    <div class="category">
+    <!-- Category -->
+    <div class="category m-auto">
         <div class="container">
-            <div class="row mb-4">
-                <div class="col-12 text-center">
-                    <h3 class="fw-bold">CATEGORIES</h3>
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="text-center">Categories</h3>
                 </div>
             </div>
 
+            <div class="row mt-3">
+                <div class="col-lg-8 m-0 p-0">
+                    <div class="categoriesProduct">
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-03.png" class="" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-04.png" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-05.png" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-06.png" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-08.png" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-09.png" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-4 m-0 p-0">
+                    <div class="categoriesProduct2">
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-07.png" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+                        <div class="categoryItem">
+                            <img src="img/banner-tshirts-10.png" alt="">
+                            <div class="categoryProductContent">
+                                <span>Title</span>
+                                <h3>Product</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Countries PRODUCTS -->
+    <div class="countriesProduct">
+        <div class="container">
             <div class="row">
                 <div class="col-12 m-0 p-0">
-                    <div class="categoryDivision d-md-flex">
-                        <div class="categoryProduct">
-                            <div class="product">
-                                <img src="img/banner-tshirts-03.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3 href="">Product</h3>
-                                </div>
-                            </div>
-    
-                            <div class="product">
-                                <img src="img/banner-tshirts-04.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3>Product</h3>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <img src="img/banner-tshirts-05.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3>Product</h3>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <img src="img/banner-tshirts-06.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3>Product</h3>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <img src="img/banner-tshirts-08.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3>Product</h3>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <img src="img/banner-tshirts-09.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3>Product</h3>
-                                </div>
+                    <div class="cards shadow-lg">
+                         <div class="row">
+                            <div class="col-12">
+                                <form action="" method="get">
+                                    <input type="text" class="ps-4" placeholder="Search Country Product">
+                                    <button type="submit" class="btn btn-dark"><i class="fa-solid fa-magnifying-glass"></i></button>
+                                </form>    
                             </div>
                         </div>
 
-                        <div class="categoryProduct2">
-                            <div class="product">
-                                <img src="img/banner-tshirts-07.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3>Product</h3>
-                                </div>
-                            </div>
-                            <div class="product">
-                                <img src="img/banner-tshirts-10.png" alt="">
-                                <div class="categoryProductContent">
-                                    <span>Title</span>
-                                    <h3>Product</h3>
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="text-center">
+                                        <button class="btn btn-default filter-button" data-filter="all">All</button>
+                                        <button class="btn btn-default filter-button" data-filter="brazil">Brazil</button>
+                                        <button class="btn btn-default filter-button" data-filter="argentina">Argentina</button>
+                                        <button class="btn btn-default filter-button" data-filter="spain">Spain</button>
+                                        <button class="btn btn-default filter-button" data-filter="germany">Germany</button>
+                                        <button class="btn btn-default filter-button" data-filter="uruguay">Uruguay</button>
+                                    </div>
+                                    
+                                    <div class="container">
+                                        <div class="row">
+                                            <div class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 filter Germany uruguay">
+                                                <div class="card shadow-lg">
+                                                    <div class="mainProductImg">
+                                                        <img src="img/Lionel-Messi-Barcelona-1153450-removebg-preview.png" id="main_product_image" alt="">
+                                                        
+                                                    </div>
+
+                                                    <div class="allProductImg">
+                                                        <ul>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/Lionel-Messi-Barcelona-1153450-removebg-preview.png" alt="">
+                                                            </li>
+                                                            <li><img onclick="changeImage(this)" src="img/545-5451897_2018-19-barcelona-home-womens-soccer-jersey-barcelona.png" alt=""></li>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/552-5522105_messi-jersey-png-barcelona-transparent-png-removebg-preview.png" alt="">
+                                                            </li>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/png-clipart-fc-barcelona-t-shirt-jersey-nike-fcb-tshirt-navy-blue-removebg-preview.png" alt="">
+                                                            </li>
+                                                        </ul>
+                                                        
+                                                    </div>
+
+                                                    <div class="productAction">
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                                                        </div>
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                                        </div>
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="productPrice shadow-lg">
+                                                        <div class="productPriceInner d-flex justify-content-between">
+                                                            <h5>Price :$200</h5>
+                                                            <div class="rating">
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+        
+                                            <div class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 filter Germany uruguay">
+                                                <div class="card shadow-lg">
+                                                    <div class="mainProductImg">
+                                                        <img src="img/Lionel-Messi-Barcelona-1153450-removebg-preview.png" id="main_product_image" alt="">
+                                                        
+                                                    </div>
+
+                                                    <div class="allProductImg">
+                                                        <ul>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/Lionel-Messi-Barcelona-1153450-removebg-preview.png" alt="">
+                                                            </li>
+                                                            <li><img onclick="changeImage(this)" src="img/545-5451897_2018-19-barcelona-home-womens-soccer-jersey-barcelona.png" alt=""></li>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/552-5522105_messi-jersey-png-barcelona-transparent-png-removebg-preview.png" alt="">
+                                                            </li>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/png-clipart-fc-barcelona-t-shirt-jersey-nike-fcb-tshirt-navy-blue-removebg-preview.png" alt="">
+                                                            </li>
+                                                        </ul>
+                                                        
+                                                    </div>
+
+                                                    <div class="productAction">
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                                                        </div>
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                                        </div>
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="productPrice shadow-lg">
+                                                        <div class="productPriceInner d-flex justify-content-between">
+                                                            <h5>Price :$200</h5>
+                                                            <div class="rating">
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                            <div class="gallery_product col-lg-4 col-md-6 col-sm-6 col-xs-12 filter Germany uruguay">
+                                                <div class="card shadow-lg">
+                                                    <div class="mainProductImg">
+                                                        <img src="img/Lionel-Messi-Barcelona-1153450-removebg-preview.png" id="main_product_image" alt="">
+                                                        
+                                                    </div>
+
+                                                    <div class="allProductImg">
+                                                        <ul>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/Lionel-Messi-Barcelona-1153450-removebg-preview.png" alt="">
+                                                            </li>
+                                                            <li><img onclick="changeImage(this)" src="img/545-5451897_2018-19-barcelona-home-womens-soccer-jersey-barcelona.png" alt=""></li>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/552-5522105_messi-jersey-png-barcelona-transparent-png-removebg-preview.png" alt="">
+                                                            </li>
+                                                            <li>
+                                                                <img onclick="changeImage(this)" src="img/png-clipart-fc-barcelona-t-shirt-jersey-nike-fcb-tshirt-navy-blue-removebg-preview.png" alt="">
+                                                            </li>
+                                                        </ul>
+                                                        
+                                                    </div>
+
+                                                    <div class="productAction">
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-heart"></i></a>
+                                                        </div>
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-eye"></i></a>
+                                                        </div>
+                                                        <div>
+                                                            <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="productPrice shadow-lg">
+                                                        <div class="productPriceInner d-flex justify-content-between">
+                                                            <h5>Price :$200</h5>
+                                                            <div class="rating">
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                                <span><i class="fa-solid fa-star"></i>
+                                                                </span>
+                                                            </div>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>       
                 </div>
             </div>
         </div>
     </div>
 
-    <!-- FEATURED PRODUCTS -->
+
+    
 
     <!--Search Modal -->
     <div class="modal fade modal-xl" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
